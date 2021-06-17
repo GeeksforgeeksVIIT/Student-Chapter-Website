@@ -4,15 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>GFG VIIT</title>
-    <link rel = "icon" href =  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type = "image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>GFG</title>
 </head>
 <body>
+    
+    <header class="header">
 
+        <!-- logo -->
+        <a href="#" class="header__logo">GFG VIIT</a>
+
+        <!-- menu toggle  -->
+        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+
+        <nav class="nav" id="nav-menu">
+
+            <div class="nav__content bd-grid">
+
+                <!-- close button -->
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+
+                <!-- logo and description  -->
+                <div class="nav__perfil">
+                    <div class="nav__img"> <img src="logo.png" alt=""> </div>
+                    
+                    <div>
+                        <a href="#" class="nav__name">GFG VIIT</a>
+                        <!-- <span class="nav__heading">Student Chapter</span> -->
+                    </div>
+
+                </div>
+
+                <!-- menu -->
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Events</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Team</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- social  -->
+                <div class="nav__social">
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+
+
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-- icons -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
