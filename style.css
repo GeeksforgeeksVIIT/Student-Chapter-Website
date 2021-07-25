@@ -539,14 +539,3 @@ img {
     margin-left:2.5rem
   }
 }
-
-.container{
-	width:50%;
-	height: 100vh;
-	background-color:#a4152c;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	
-}
-
